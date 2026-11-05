@@ -1,0 +1,105 @@
+
+/* ===== Global Style ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f2fa;
+    color: #393044;
+    line-height: 1.8;
+}
+
+/* ===== Header ===== */
+header {
+    background: #ffffff;
+    padding: 25px 8%;
+    box-shadow: 0 2px 12px rgba(80, 50, 100, 0.08);
+}
+
+header h1 {
+    color: #78558f;
+    font-size: 30px;
+}
+
+/* ===== Navigation ===== */
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: #765b89;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c084b8;
+}
+
+/* ===== Main Content ===== */
+main {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 0 25px;
+}
+
+section {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(80, 50, 100, 0.06);
+}
+
+h2 {
+    color: #805c99;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #a276a8;
+    margin: 15px 0 8px;
+}
+
+/* ===== Links ===== */
+a {
+    transition: color 0.3s ease;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #887b91;
+    font-size: 14px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 12px 5px 0;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
