@@ -1,52 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Digital Media Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f4f8;
-            color: #333;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #8b4c72;
-        }
-        h2 {
-            color: #65506b;
-        }
-        section {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 12px;
-        }
-    </style>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A learning portfolio documenting workshops and reflections from Digital Practices at the University of Leeds.">
+  <title>My Digital Media Portfolio | University of Leeds</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="reflection.html">Reflections</a>
-</nav>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hello! I am a Digital Media student at the University of Leeds.</p >
-    <section>
-        <h2>About Me</h2>
-        <p>I am interested in digital media, websites, and online culture.</p >
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">My Digital Portfolio</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="reflection.html" class="">Reflections</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">University of Leeds · Digital Media</p>
+    <h1>Exploring the digital world, one practice at a time.</h1>
+    <p>A record of my learning journey through Digital Practices, bringing together workshop activities, new skills and reflections on the relationship between technology and society.</p>
+    <div class="hero-meta"><span class="pill">Learning journal</span><span class="pill">Digital practices</span><span class="pill">Workshop reflections</span></div>
+  </section>
+  <div class="intro-grid">
+    <section class="panel">
+      <h2>About this portfolio</h2>
+      <p>This portfolio documents my engagement with digital media practices, from understanding how technology and society shape one another to experimenting with web development, data collection and visualisation.</p>
     </section>
-    <section>
-        <h2>My Work</h2>
-        <p>This website is the beginning of my digital media portfolio.</p >
+    <section class="panel">
+      <h2>What I am exploring</h2>
+      <ul class="focus-list"><li>How digital technologies are shaped by social contexts</li><li>How websites are built and published</li><li>How online information can be collected responsibly</li><li>How data can be organised and communicated visually</li></ul>
     </section>
-    <section>
-        <h2>My Interests</h2>
-        <p>I enjoy exploring creative ideas and learning new digital skills.</p >
-    </section>
-</body>
-</html>
+  </div>
+  <div class="section-heading"><p class="eyebrow">The learning journey</p><h2>Workshop reflections</h2><p>Browse the weekly pages to see the topics and practical activities covered so far.</p></div>
+  <div class="week-grid">
+    <a class="week-card" href="week1.html"><span class="week-number">WEEK 01</span><h3>Introducing Digital Practices</h3><p>Digital practices, technology and society, and the social constructionist perspective.</p><span class="card-link">Explore week 01 →</span></a>
+    <a class="week-card" href="week2.html"><span class="week-number">WEEK 02</span><h3>Creating and Hosting a Website</h3><p>Building web pages with HTML and CSS and publishing a website with GitHub Pages.</p><span class="card-link">Explore week 02 →</span></a>
+    <a class="week-card" href="week3.html"><span class="week-number">WEEK 03</span><h3>Web Scraping</h3><p>Experimenting with Web Scraper and collecting information from online character pages.</p><span class="card-link">Explore week 03 →</span></a>
+    <a class="week-card" href="week4.html"><span class="week-number">WEEK 04</span><h3>Data Practices and Collection</h3><p>Exploring student use of generative AI and the ethics of collecting online content.</p><span class="card-link">Explore week 04 →</span></a>
+    <a class="week-card" href="week5.html"><span class="week-number">WEEK 05</span><h3>Data and Data Visualisation</h3><p>Considering how datasets can be organised, analysed and represented visually.</p><span class="card-link">Explore week 05 →</span></a>
+  </div>
+</main>
+<footer class="site-footer">My Digital Portfolio · University of Leeds</footer>
+</body></html>
