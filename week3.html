@@ -1,29 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Experimenting with methods for collecting information from websites.">
-  <title>Web Scraping | My Digital Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Experimenting with methods for collecting information from websites." name="description"/>
+<title>Web Scraping | My Digital Portfolio</title>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html">My Digital Portfolio</a>
-    <nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="reflection.html" class="active" aria-current="page">Reflections</a></nav>
-  </div>
+<div class="nav-wrap">
+<a class="brand" href="index.html">My Digital Portfolio</a>
+<nav aria-label="Main navigation" class="nav-links"><a href="index.html">Home</a><a aria-current="page" class="active" href="reflection.html">Reflections</a></nav>
+</div>
 </header>
 <main id="main-content" tabindex="-1">
 <section class="hero week-hero"><p class="eyebrow">Weekly reflection · WEEK 3</p><h1>Web Scraping</h1><p>Experimenting with methods for collecting information from websites.</p></section>
-<article class="content-card">
-<section aria-labelledby="section-1"><h2 id="section-1">What I learned</h2><p>This workshop introduced web scraping as a way of collecting information from web pages. It showed how information presented on a website can be selected and organised into a dataset for further exploration.</p></section>
-<section aria-labelledby="section-2"><h2 id="section-2">Practical experience</h2><p>I used Web Scraper (WebScraper.io) to collect information from character pages on the official Marvel website. This gave me a practical opportunity to think about which page elements could be selected and how the collected information could be structured.</p></section>
-<section aria-labelledby="section-3"><h2 id="section-3">My reflection</h2><p>The activity helped me see that online information does not automatically become useful data. The choices made during collection—such as which pages and fields to include—shape the dataset that is produced. I also need to consider whether the source is appropriate and whether collection respects the website and its users.</p></section>
-<section aria-labelledby="section-4"><h2 id="section-4">What I want to explore</h2><p>I would like to practise checking the quality and consistency of scraped data, and learn more about how collection choices affect later analysis.</p></section>
-</article>
-<nav class="week-pager" aria-label="Weekly reflection navigation"><a href="week2.html">← Week 2</a><a class="all-reflections" href="reflection.html">All reflections</a><a href="week4.html">Week 4 →</a></nav>
+<article class="content-card"><section aria-labelledby="section-1"><h2 id="section-1">What I explored</h2><p>The Week 3 activity introduced web scraping through WebScraper.io. I worked with character pages on Marvel’s official website, using a familiar collection of web pages to think about how information can be gathered in a structured way.</p><p>The important practical question was which elements of a page should become data. For example, a character name, a link to a profile and a piece of descriptive text would be different fields; collecting one field consistently is not the same as copying everything visible on a page.</p></section><section aria-labelledby="section-2"><h2 id="section-2">Why the structure matters</h2><p>I began to understand that a website is designed for visitors, not necessarily for researchers who want a neat dataset. Layout changes, missing information and repeated sections could make scraping inconsistent. The fields a researcher chooses will also decide what kinds of questions the resulting data can answer.</p><p>I should check the collected information against the original pages and record what each field means before using it for analysis. This page describes the workshop exercise; it does not claim a verified final number of scraped records.</p></section><section aria-labelledby="section-3"><h2 id="section-3">My reflection on responsible collection</h2><p>Scraping can make data collection faster, but it does not remove the need for judgement. Information being visible online does not automatically mean it should be reused without considering source rules, attribution and privacy.</p><p>This exercise also connects to my interest in Marvel: even when I recognise the subject matter, I still have to evaluate the data collection method instead of relying on my familiarity with the characters.</p></section><section aria-labelledby="section-4"><h2 id="section-4">What I would improve</h2><p>For a future scraping task, I would define the fields before collecting data, test the method on a small number of pages and check for missing or duplicated entries before drawing conclusions.</p></section></article>
+<nav aria-label="Weekly reflection navigation" class="week-pager"><a href="week2.html">← Week 2</a><a class="all-reflections" href="reflection.html">All reflections</a><a href="week4.html">Week 4 →</a></nav>
 </main>
 <footer class="site-footer">My Digital Portfolio · University of Leeds</footer>
 </body>

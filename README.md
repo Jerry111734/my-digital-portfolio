@@ -21,3 +21,6 @@ This is an improved, self-contained copy of the University of Leeds digital medi
 4. Review the personal first-person reflections yourself before submitting them for assessment.
 
 The connected GitHub app could read the repository but received a 403 on write, so the original online repository has **not** been changed by this export.
+
+## Content review
+The week pages now include more specific descriptions of known activities (VS Code/GitHub Pages, WebScraper.io with Marvel, generative-AI research planning, Week 5 data visualisation tasks). They deliberately do not invent numerical results, survey responses or a completed chart. Personal reflections are suggested first-person wording and should be reviewed against your own experience and course materials before assessment submission.
