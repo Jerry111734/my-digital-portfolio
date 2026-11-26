@@ -1,0 +1,28 @@
+# My Digital Portfolio — Week 6–8 update
+
+This ZIP contains **six HTML files** ready to merge into your current GitHub repository, one image inside an `assets` subfolder, and these instructions:
+
+- `index.html` — adds Week 6, 7 and 8 cards to the home page
+- `reflection.html` — adds Week 6, 7 and 8 to the reflections index
+- `week5.html` — preserves the original Week 5 prose and adds a Week 6 navigation link
+- `week6.html` — algorithmic identity reflection
+- `week7.html` — reflective pause and AI detection reflection
+- `week8.html` — digital ecologies, soundscapes and the group drawing
+- `assets/week8-group-sensory-map.jpg` — cropped original group drawing, with no fabricated additions
+
+The package leaves **week1–week4 and style.css** unchanged.
+
+## How to publish on GitHub
+
+1. Unzip the archive on your computer.
+2. In your repository `Jerry111734/my-digital-portfolio`, upload the six HTML files to the **root** of the `main` branch. Choose to replace `index.html`, `reflection.html`, and `week5.html` when asked.
+3. Open or create the `assets` folder at the repository root, and upload `week8-group-sensory-map.jpg` to that folder.
+4. Commit the changes and reload GitHub Pages. Check the Week 5 → Week 6 → Week 7 → Week 8 links and open the Week 8 image.
+
+**Do not upload the ZIP itself expecting GitHub to unpack it.**
+
+## Academic-integrity check
+
+Read and personalise the first-person reflection passages before submitting. The material is based on your Week 6–8 workshop screenshots, the supplied Schafer introduction, the Terra Forma reading, and your group's actual drawing. It does not claim 480 posts were coded, interviews happened, extra recordings were made, or unobserved findings were obtained. References include assigned items; they are not claims that you read all their full texts.
+
+The connected GitHub integration could read the repo but returned 403 on write, so no online files were changed by this creation.
